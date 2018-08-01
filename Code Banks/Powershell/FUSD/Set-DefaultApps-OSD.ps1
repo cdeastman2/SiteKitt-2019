@@ -1,0 +1,1 @@
+dism.exe /online /Import-DefaultAppAssociations:C:\Windows\Temp\OSD-Scripts\OSD-DefaultApps\Students\DefaultApps\DefaultApps.xml

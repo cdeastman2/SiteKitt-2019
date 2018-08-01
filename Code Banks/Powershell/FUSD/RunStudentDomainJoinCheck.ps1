@@ -1,0 +1,1 @@
+﻿# RunDomainJoinCheck key$RegistryPath = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run'$KeyName = 'RunDomainJoinCheck'$Value = 'C:\windows\temp\OSD-Scripts\OSD-DomainJoin\STU-DomainJoin\OSD-STU-DomainJoin.bat'New-ItemProperty -Path $RegistryPath -Name $KeyName -Value $Value -PropertyType String
