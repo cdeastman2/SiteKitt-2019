@@ -1,0 +1,33 @@
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe.config
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbprojResolveAssemblyReference.cache
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Form1.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Resources.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbproj.GenerateResource.Cache
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.pdb
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe.config
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.exe
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.xml
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.pdb
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.pdb
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\bin\Debug\CallMeVB.xml
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Form1.resources
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Resources.resources
+C:\Users\Administrator\Documents\GitHub\Project_New\LabKitten2018\Collections_Creator Mod\VB.net Prototypes\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbproj.GenerateResource.Cache
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe.config
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbprojResolveAssemblyReference.cache
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Form1.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Resources.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbproj.GenerateResource.Cache
