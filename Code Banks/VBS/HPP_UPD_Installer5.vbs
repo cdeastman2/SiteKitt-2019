@@ -3,7 +3,7 @@ Option Explicit
 ' LANG 					: VBScript
 ' NAME 					: HPP_UPD_Installer
 ' AUTHOR				: Clifford Dinel Eastman ii	
-' Mail					: CDEASTM4FUSD@gmail.com
+' Mail					: 
 ' VERSION 				: 5
 ' DATE 					:	
 ' Description			: 
