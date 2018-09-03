@@ -88,7 +88,7 @@ Partial Class Form1
         Me.GroupBox0.Controls.Add(Me.RadioButton2)
         Me.GroupBox0.Location = New System.Drawing.Point(21, 17)
         Me.GroupBox0.Name = "GroupBox0"
-        Me.GroupBox0.Size = New System.Drawing.Size(954, 83)
+        Me.GroupBox0.Size = New System.Drawing.Size(778, 83)
         Me.GroupBox0.TabIndex = 11
         Me.GroupBox0.TabStop = False
         Me.GroupBox0.Text = "Site Filter"

@@ -6,7 +6,251 @@ CClient3
 </name>
 </assembly>
 <members>
-<member name="P:CClient3.My.Resources.Resources.ResourceManager">
+<member name="T:CClient3.SightKitt2018DataSet.Base_Inventory_ObjectDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CartTagesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Collections_ProfileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Computer_Cart_ProfileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Computer_LAB_ProfileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CPUInvoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CURRENTSETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Group_Items_Details_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Primary_Site_ProfileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Printer_AsighnmentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.PrinterInvoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Site_PrintersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet._Site_Printers__old_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Base_Inventory_ObjectRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CartTagesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Collections_ProfileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Computer_Cart_ProfileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Computer_LAB_ProfileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CPUInvoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CURRENTSETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Group_Items_Details_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Primary_Site_ProfileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Printer_AsighnmentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.PrinterInvoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Site_PrintersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet._Site_Printers__old_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Base_Inventory_ObjectRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CartTagesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Collections_ProfileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Computer_Cart_ProfileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Computer_LAB_ProfileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CPUInvoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.CURRENTSETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Group_Items_Details_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Primary_Site_ProfileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Printer_AsighnmentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.PrinterInvoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet.Site_PrintersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet._Site_Printers__old_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Base_Inventory_ObjectTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.CartTagesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Collections_ProfileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Computer_Cart_ProfileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Computer_LAB_ProfileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.CPUInvoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.CURRENTSETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Group_Items_Details_listTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Primary_Site_ProfileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Printer_AsighnmentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.PrinterInvoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Site_PrintersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.Site_Printers__old_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CClient3.SightKitt2018DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CClient3.SightKitt2018DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CClient3.SightKitt2018DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager.UpdateAll(CClient3.SightKitt2018DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CClient3.SightKitt2018DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:CClient3.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
