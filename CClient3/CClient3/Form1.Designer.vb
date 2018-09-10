@@ -35,6 +35,12 @@ Partial Class CClient_Freefall
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.GroupBox0.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -160,11 +166,65 @@ Partial Class CClient_Freefall
         Me.ComboBox2.Size = New System.Drawing.Size(484, 33)
         Me.ComboBox2.TabIndex = 12
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(17, 651)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(307, 31)
+        Me.TextBox1.TabIndex = 15
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(350, 651)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(278, 31)
+        Me.TextBox2.TabIndex = 16
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(17, 623)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(210, 25)
+        Me.Label4.TabIndex = 17
+        Me.Label4.Text = "Site Computer Name"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(358, 623)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(143, 25)
+        Me.Label5.TabIndex = 18
+        Me.Label5.Text = "LMC Barcode"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(319, 721)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(144, 70)
+        Me.Button1.TabIndex = 19
+        Me.Button1.Text = "Done"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(12, 839)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(783, 23)
+        Me.ProgressBar1.TabIndex = 20
+        '
         'CClient_Freefall
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(999, 754)
+        Me.ClientSize = New System.Drawing.Size(807, 904)
+        Me.Controls.Add(Me.ProgressBar1)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.GroupBox0)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.ComboBox2)
@@ -193,5 +253,11 @@ Partial Class CClient_Freefall
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
 
 End Class
