@@ -34,7 +34,7 @@ Function Print_HardwareTags(txtPrefix,txtItem,intNnumber)' Vertion 1.0 Aplha
 	loop 
 	
 	'objDoc.PrintOut()
-	'objDoc.SaveAs(txtIncident &".doc")
+	objDoc.SaveAs(txtIncident &".doc")
 	'objWord.Quit
 	
 End Function

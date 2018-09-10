@@ -1,0 +1,12 @@
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe.config
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.Form1.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.Resources.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.vbproj.GenerateResource.Cache
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe.CodeAnalysisLog.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe.lastcodeanalysissucceeded

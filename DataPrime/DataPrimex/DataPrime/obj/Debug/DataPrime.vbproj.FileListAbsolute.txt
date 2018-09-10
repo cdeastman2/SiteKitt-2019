@@ -1,0 +1,22 @@
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\bin\Debug\DataPrime.exe.config
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\bin\Debug\DataPrime.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\bin\Debug\DataPrime.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\bin\Debug\DataPrime.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\obj\Debug\DataPrime.Form1.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\obj\Debug\DataPrime.Resources.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\obj\Debug\DataPrime.vbproj.GenerateResource.Cache
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\obj\Debug\DataPrime.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\obj\Debug\DataPrime.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\obj\Debug\DataPrime.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\LabKitt2019\Data Prime 2019\DataPrime\DataPrime\bin\Debug\SightKitt2018.accdb
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\bin\Debug\DataPrime.exe.config
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\obj\Debug\DataPrime.exe
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\obj\Debug\DataPrime.xml
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\obj\Debug\DataPrime.pdb
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\bin\Debug\SightKitt2018.accdb
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\bin\Debug\DataPrime.exe
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\bin\Debug\DataPrime.pdb
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\bin\Debug\DataPrime.xml
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\obj\Debug\DataPrime.Form1.resources
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\obj\Debug\DataPrime.Resources.resources
+C:\Users\It.cliff.eastman\Desktop\LabKitt2019-master\Project Mukki\DataPrime\DataPrime\obj\Debug\DataPrime.vbproj.GenerateResource.Cache
