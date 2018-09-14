@@ -28,19 +28,20 @@ Partial Class CClient_Freefall
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox0 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.CBSite_Selection = New System.Windows.Forms.ComboBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox0.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -81,7 +82,7 @@ Partial Class CClient_Freefall
         '
         'GroupBox0
         '
-        Me.GroupBox0.Controls.Add(Me.RadioButton9)
+        Me.GroupBox0.Controls.Add(Me.RadioButton5)
         Me.GroupBox0.Controls.Add(Me.RadioButton4)
         Me.GroupBox0.Controls.Add(Me.RadioButton3)
         Me.GroupBox0.Controls.Add(Me.RadioButton1)
@@ -93,17 +94,15 @@ Partial Class CClient_Freefall
         Me.GroupBox0.TabStop = False
         Me.GroupBox0.Text = "Site Filter"
         '
-        'RadioButton9
+        'RadioButton5
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Checked = True
-        Me.RadioButton9.Location = New System.Drawing.Point(647, 30)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(118, 29)
-        Me.RadioButton9.TabIndex = 4
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Full List"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Location = New System.Drawing.Point(647, 30)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(118, 29)
+        Me.RadioButton5.TabIndex = 4
+        Me.RadioButton5.Text = "Full List"
+        Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'RadioButton4
         '
@@ -112,7 +111,6 @@ Partial Class CClient_Freefall
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(107, 29)
         Me.RadioButton4.TabIndex = 3
-        Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "Others"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
@@ -123,7 +121,6 @@ Partial Class CClient_Freefall
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(159, 29)
         Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "High School"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
@@ -134,7 +131,6 @@ Partial Class CClient_Freefall
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(144, 29)
         Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Elemetries"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
@@ -145,7 +141,6 @@ Partial Class CClient_Freefall
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(178, 29)
         Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Midle Schools"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
@@ -158,13 +153,13 @@ Partial Class CClient_Freefall
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Sellect Site"
         '
-        'ComboBox2
+        'CBSite_Selection
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(17, 124)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(484, 33)
-        Me.ComboBox2.TabIndex = 12
+        Me.CBSite_Selection.FormattingEnabled = True
+        Me.CBSite_Selection.Location = New System.Drawing.Point(17, 124)
+        Me.CBSite_Selection.Name = "CBSite_Selection"
+        Me.CBSite_Selection.Size = New System.Drawing.Size(484, 33)
+        Me.CBSite_Selection.TabIndex = 12
         '
         'TextBox1
         '
@@ -200,7 +195,7 @@ Partial Class CClient_Freefall
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(319, 721)
+        Me.Button1.Location = New System.Drawing.Point(17, 712)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(144, 70)
         Me.Button1.TabIndex = 19
@@ -214,11 +209,21 @@ Partial Class CClient_Freefall
         Me.ProgressBar1.Size = New System.Drawing.Size(783, 23)
         Me.ProgressBar1.TabIndex = 20
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(350, 703)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(142, 70)
+        Me.Button2.TabIndex = 21
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'CClient_Freefall
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(807, 904)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label5)
@@ -227,7 +232,7 @@ Partial Class CClient_Freefall
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.GroupBox0)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.CBSite_Selection)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)
@@ -246,18 +251,19 @@ Partial Class CClient_Freefall
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents GroupBox0 As System.Windows.Forms.GroupBox
-    Friend WithEvents RadioButton9 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton5 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents CBSite_Selection As System.Windows.Forms.ComboBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class
