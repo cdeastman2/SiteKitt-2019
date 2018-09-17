@@ -3,13 +3,17 @@
 
     Public Sub AddSystem(MyPrimare_Collection)
         Dim MyCurrentSystem = New SCCMDataPoint
-        Dim MySerialNumber As String
 
+
+        Dim MySerialNumber As String
         Dim MyUUID As String
         Dim MComputerName As String
+        Dim MyDomain As String = ""
         Dim Mymanufature As String
         Dim MyModel As String
         Dim MyMACs As String = ""
+
+
         REM  Dim MyPrimare_Collection
         Dim Lastupdated = Now()
 
@@ -34,31 +38,34 @@
 
 
         access.AddParam("@SerialNumber", MySerialNumber)
-        REM  MsgBox(MySerialNumber)
+        REM  MsgBox(MySerialNumber)'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
         access.AddParam("@MyUUID", MyUUID)
-        REM  MsgBox(MyUUID)
+        REM  MsgBox(MyUUID)'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
         access.AddParam("@MYComputerName", MComputerName)
-        REM MsgBox(MComputerName)
+        REM MsgBox(MComputerName)'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
         access.AddParam("@MainSCCMCollection", MyPrimare_Collection)
-        REM  MsgBox(MyPrimare_Collection)
+        REM  MsgBox(MyPrimare_Collection)'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
+
+        access.AddParam("@MyDomain", MyDomain)
+        MsgBox(MyDomain) 'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
         access.AddParam("@MyNamufaturer", Mymanufature)
-        REM  MsgBox(Mymanufature)
+        REM  MsgBox(Mymanufature)'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
         access.AddParam("@MyModel", MyModel)
-        REM  MsgBox(MyModel)
+        REM  MsgBox(MyModel)'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
         access.AddParam("@MyMACS", MyMACs)
-        REM MsgBox(MyMACs)
+        REM MsgBox(MyMACs)'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
         access.AddParam("@MyDate", Now())
-        REM  MsgBox(Now())
+        REM  MsgBox(Now())'Debug <<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
-        access.ExecQuery("INSERT INTO CPUINVO (SerialNumber,UUID,ComputerName,Main_SCCM_Group,Manufacturer,Model,MACS)" & _
+        access.ExecQuery("INSERT INTO CPUINVO (SerialNumber,UUID,ComputerName,Main_SCCM_Group,Manufacturer,Model,MACS,domain)" & _
                          "Values (@SerialNumber,@MyUUID,@MYComputerName,@MainSCCMCollection,@MyNamufaturer,@MyModel,@MyMACS); ")
 
         If Not String.IsNullOrEmpty(access.Exception) Then
