@@ -22,6 +22,7 @@ Partial Class CClient_Freefall
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CClient_Freefall))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -42,6 +43,7 @@ Partial Class CClient_Freefall
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox0.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -204,7 +206,10 @@ Partial Class CClient_Freefall
         '
         'ProgressBar1
         '
+        Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ProgressBar1.Location = New System.Drawing.Point(12, 839)
+        Me.ProgressBar1.Maximum = 30
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(783, 23)
         Me.ProgressBar1.TabIndex = 20
@@ -217,6 +222,10 @@ Partial Class CClient_Freefall
         Me.Button2.TabIndex = 21
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
+        Me.Timer1.Tag = "p"
         '
         'CClient_Freefall
         '
@@ -265,5 +274,6 @@ Partial Class CClient_Freefall
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 
 End Class

@@ -48,7 +48,9 @@ Public Class DBControle
 
 
         Catch ex As Exception
-            Exception = ex.Message
+
+            Exception = "Error code = " & ex.HResult & "   " & ex.Message
+
         End Try
         If Data_Connection.State = ConnectionState.Open Then Data_Connection.Close()
 
