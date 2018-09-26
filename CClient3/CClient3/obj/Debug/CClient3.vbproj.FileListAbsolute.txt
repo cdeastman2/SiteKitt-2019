@@ -10,3 +10,7 @@ C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\obj\D
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\obj\Debug\CClient3.CClient_Freefall.resources
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\bin\Debug\SightKitt2018.accdb
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\bin\Debug\AccessDataControles.vb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\bin\Debug\CClient3.exe.manifest
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\bin\Debug\CClient3.application
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\obj\Debug\CClient3.exe.manifest
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient3\CClient3\obj\Debug\CClient3.application

@@ -69,6 +69,8 @@
         access.AddParam("@MyMACS", MyMACs)
         REM MsgBox(MyMACs)
 
+
+        access.AddParam("@Site_Computername", MyMACs)
         REM access.AddParam("@MyDate", Now())
         REM  MsgBox(Now())
 
@@ -91,5 +93,27 @@
     End Sub
 
 
+    Private Sub UpdateRecord()
+        
+        REM   Access.ExecQuery("UPDATE members " & _
+        REM                 "SET username=@user,[Password]=@pass,email=@email,website=@website,Active=@active " & _
+        REM                "WHERE id=@uid")
+
+    End Sub
+
+
+
+    Public Sub UpDateSystem()
+
+
+        access.ExecQuery("UPDATE members " & _
+                        "SET username=@user,[Password]=@pass,email=@email,website=@website,Active=@active " & _
+                        "WHERE id=@uid")
+
+
+
+
+
+    End Sub
 
 End Module

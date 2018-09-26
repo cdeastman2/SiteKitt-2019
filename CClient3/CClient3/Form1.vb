@@ -34,6 +34,10 @@
 
     End Sub
 
+    Private Sub CClient_Freefall_MouseClick(sender As Object, e As MouseEventArgs) Handles Me.MouseClick
+
+    End Sub
+
     Private Sub CClient_Freefall_MouseEnter(sender As Object, e As EventArgs) Handles Me.MouseEnter
 
     End Sub
@@ -96,7 +100,7 @@
 
 
         REM setup site list 
-        Access.ExecQuery("Select * FROM Primary_site_Profile")
+        Access.ExecQuery("Select * FROM Primary_site_Profile order by Site")
         If Not String.IsNullOrEmpty(Access.Exception) Then
 
             MsgBox(Access.Exception)
@@ -116,6 +120,12 @@
                 DateSet = Record("setdata")
             Next
         End If
+
+        RB_SFN.Checked = Stop_for_Numbering
+
+
+
+
         REM **********************************************
 
         REM setup Collection list 
@@ -159,7 +169,16 @@
         My_collection_Selection = CurrentSet
         REM  ListBox1.Items.Add(My_collection_Selection)'debug <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-        Timer1.Enabled = True
+
+
+        If Stop_for_Numbering <> True Then
+            Timer1.Enabled = True
+
+
+        Else
+            Timer1.Enabled = False
+        End If
+
 
 
 

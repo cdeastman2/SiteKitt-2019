@@ -8,5 +8,3 @@ C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\D
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.exe
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.xml
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.pdb
-C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe.CodeAnalysisLog.xml
-C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe.lastcodeanalysissucceeded

@@ -44,6 +44,7 @@ Partial Class CClient_Freefall
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.RB_SFN = New System.Windows.Forms.RadioButton()
         Me.GroupBox0.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -227,11 +228,23 @@ Partial Class CClient_Freefall
         '
         Me.Timer1.Tag = "p"
         '
+        'RB_SFN
+        '
+        Me.RB_SFN.AutoSize = True
+        Me.RB_SFN.Location = New System.Drawing.Point(12, 804)
+        Me.RB_SFN.Name = "RB_SFN"
+        Me.RB_SFN.Size = New System.Drawing.Size(228, 29)
+        Me.RB_SFN.TabIndex = 22
+        Me.RB_SFN.TabStop = True
+        Me.RB_SFN.Text = "Stop for Numbering"
+        Me.RB_SFN.UseVisualStyleBackColor = True
+        '
         'CClient_Freefall
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(807, 904)
+        Me.Controls.Add(Me.RB_SFN)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Button1)
@@ -275,5 +288,6 @@ Partial Class CClient_Freefall
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents RB_SFN As System.Windows.Forms.RadioButton
 
 End Class
