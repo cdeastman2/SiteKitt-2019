@@ -1,0 +1,10 @@
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\bin\Debug\wordTechTags.exe.config
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\bin\Debug\wordTechTags.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\bin\Debug\wordTechTags.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\bin\Debug\wordTechTags.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\obj\Debug\wordTechTags.Form1.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\obj\Debug\wordTechTags.Resources.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\obj\Debug\wordTechTags.vbproj.GenerateResource.Cache
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\obj\Debug\wordTechTags.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\obj\Debug\wordTechTags.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\wordTechTags\wordTechTags\obj\Debug\wordTechTags.pdb

@@ -1,11 +1,11 @@
-	returns = Print_HardwareTags("YMS-","Cart-N",30)
+	returns = Print_HardwareTags("HID-","Cart-",3)
 
 Function Print_HardwareTags(txtPrefix,txtItem,intNnumber)' Vertion 1.0 Aplha
 	Dim objWord,objDoc,objSelection ' Word objects"
 	Dim txtCart_labble
 	Dim intCurrent_Hardware_Item_number 
 	
-	intCurrent_Hardware_Item_number = 20
+	intCurrent_Hardware_Item_number = 0
 		
 	Set objWord 		= CreateObject("Word.Application")
 	objWord.Caption 	= "Information Technology Cart Tag"

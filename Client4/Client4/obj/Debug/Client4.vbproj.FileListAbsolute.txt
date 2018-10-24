@@ -1,0 +1,10 @@
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\bin\Debug\Client4.exe.config
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\bin\Debug\Client4.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\bin\Debug\Client4.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\bin\Debug\Client4.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\obj\Debug\Client4.Form1.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\obj\Debug\Client4.Resources.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\obj\Debug\Client4.vbproj.GenerateResource.Cache
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\obj\Debug\Client4.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\obj\Debug\Client4.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\Client4\Client4\obj\Debug\Client4.pdb

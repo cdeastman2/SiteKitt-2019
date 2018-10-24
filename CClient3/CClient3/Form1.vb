@@ -1,4 +1,7 @@
 ﻿Public Class CClient_Freefall
+
+    Private sql As New SQLControl
+
     Private Access As New DBControle
     Dim Current_System_Info As New SCCMDataPoint
 
@@ -357,5 +360,25 @@
             Button1_Click(sender, New EventArgs())
             
         End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim TheCurrentSet
+
+
+        sql.ExecQuery("Select * from Currentset")
+        If sql.HasException(True) Then
+
+            Exit Sub
+        End If
+        For Each theRecord As DataRow In sql.DBDT.Rows
+
+            TheCurrentSet = theRecord("CSID")
+            REM Stop_for_Numbering = Record("SFC")
+            REM DateSet = Record("setdata")
+        Next
+        ListBox1.Items.Add(TheCurrentSet)
+
+
     End Sub
 End Class

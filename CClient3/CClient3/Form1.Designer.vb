@@ -100,7 +100,7 @@ Partial Class CClient_Freefall
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(647, 30)
+        Me.RadioButton5.Location = New System.Drawing.Point(644, 30)
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(118, 29)
         Me.RadioButton5.TabIndex = 4
@@ -110,7 +110,7 @@ Partial Class CClient_Freefall
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(524, 30)
+        Me.RadioButton4.Location = New System.Drawing.Point(526, 30)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(107, 29)
         Me.RadioButton4.TabIndex = 3
@@ -120,7 +120,7 @@ Partial Class CClient_Freefall
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(346, 30)
+        Me.RadioButton3.Location = New System.Drawing.Point(356, 30)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(159, 29)
         Me.RadioButton3.TabIndex = 2
@@ -140,7 +140,7 @@ Partial Class CClient_Freefall
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(162, 30)
+        Me.RadioButton2.Location = New System.Drawing.Point(167, 30)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(178, 29)
         Me.RadioButton2.TabIndex = 1
@@ -243,6 +243,7 @@ Partial Class CClient_Freefall
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(807, 904)
         Me.Controls.Add(Me.RB_SFN)
         Me.Controls.Add(Me.Button2)
@@ -259,8 +260,10 @@ Partial Class CClient_Freefall
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CClient_Freefall"
+        Me.Opacity = 0.9R
         Me.Text = "CClient Form"
         Me.GroupBox0.ResumeLayout(False)
         Me.GroupBox0.PerformLayout()

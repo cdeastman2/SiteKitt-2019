@@ -1,0 +1,16 @@
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\CClient4a.exe.config
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\SightKitt2018.accdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\AccessDataControles.vb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\CClient4a.exe.manifest
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\CClient4a.application
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\CClient4a.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\CClient4a.pdb
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\bin\Debug\CClient4a.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4a.CClient_Freefall.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4a.Resources.resources
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4.vbproj.GenerateResource.Cache
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4a.exe.manifest
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4a.application
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4a.exe
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4a.xml
+C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CClient4\CClient3\obj\Debug\CClient4a.pdb

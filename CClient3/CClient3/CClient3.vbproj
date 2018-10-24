@@ -133,6 +133,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SightKitt2018DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SQLControl.vb" />
     <Compile Include="Write_Client_data.vb" />
   </ItemGroup>
   <ItemGroup>
