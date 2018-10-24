@@ -22,6 +22,7 @@ Partial Class CClient_Freefall
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CClient_Freefall))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -42,6 +43,8 @@ Partial Class CClient_Freefall
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.RB_SFN = New System.Windows.Forms.RadioButton()
         Me.GroupBox0.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -204,7 +207,10 @@ Partial Class CClient_Freefall
         '
         'ProgressBar1
         '
+        Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ProgressBar1.Location = New System.Drawing.Point(12, 839)
+        Me.ProgressBar1.Maximum = 30
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(783, 23)
         Me.ProgressBar1.TabIndex = 20
@@ -218,11 +224,27 @@ Partial Class CClient_Freefall
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        Me.Timer1.Tag = "p"
+        '
+        'RB_SFN
+        '
+        Me.RB_SFN.AutoSize = True
+        Me.RB_SFN.Location = New System.Drawing.Point(12, 804)
+        Me.RB_SFN.Name = "RB_SFN"
+        Me.RB_SFN.Size = New System.Drawing.Size(228, 29)
+        Me.RB_SFN.TabIndex = 22
+        Me.RB_SFN.TabStop = True
+        Me.RB_SFN.Text = "Stop for Numbering"
+        Me.RB_SFN.UseVisualStyleBackColor = True
+        '
         'CClient_Freefall
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(807, 904)
+        Me.Controls.Add(Me.RB_SFN)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Button1)
@@ -265,5 +287,7 @@ Partial Class CClient_Freefall
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents RB_SFN As System.Windows.Forms.RadioButton
 
 End Class

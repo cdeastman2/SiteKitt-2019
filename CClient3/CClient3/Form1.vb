@@ -4,7 +4,7 @@
 
     Dim Site_Selection As DataTable
     Dim Collection_Selection As DataTable
-    Dim All_CUPINVO As DataTable
+    Dim My_Systems_data As DataTable
 
     REM This is the primary user inputted data every thing else in gathered from computer
     Dim My_site As String = Nothing
@@ -17,11 +17,6 @@
 
 
 
-    Public Function Set_collection()
-
-
-
-    End Function
 
     Private Sub Label1_Click(sender As Object, e As EventArgs)
 
@@ -31,7 +26,15 @@
 
     End Sub
 
+    Private Sub CClient_Freefall_MenuStart(sender As Object, e As EventArgs) Handles Me.MenuStart
+
+    End Sub
+
     Private Sub CClient_Freefall_MinimumSizeChanged(sender As Object, e As EventArgs) Handles Me.MinimumSizeChanged
+
+    End Sub
+
+    Private Sub CClient_Freefall_MouseClick(sender As Object, e As MouseEventArgs) Handles Me.MouseClick
 
     End Sub
 
@@ -39,7 +42,21 @@
 
     End Sub
 
+    Private Sub CClient_Freefall_MouseMove(sender As Object, e As MouseEventArgs) Handles Me.MouseMove
+        Timer1.Stop()
+        Timer1.Enabled = False
+    End Sub
+
+    Private Sub CClient_Freefall_QueryAccessibilityHelp(sender As Object, e As QueryAccessibilityHelpEventArgs) Handles Me.QueryAccessibilityHelp
+
+    End Sub
+
     Private Sub CClient_Freefall_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        REM Setup ***************************************************
+        ProgressBar1.Value = ProgressBar1.Maximum
+        ProgressBar1.BackColor = Color.BlueViolet
+
+
         REM curren set data set by Cserver 
         Dim CurrentSet = ""
         Dim Stop_for_Numbering As Boolean = False
@@ -49,17 +66,41 @@
         REM **********************************************
 
         REM setting data
-        Access.ExecQuery("Select * from cpuinvo")
+
+
+
+
+
+
+
+
+
+        REM  MsgBox(Current_System_Info.SerialNumber) 'debug
+        Access.ExecQuery("Select * from cpuinvo where SerialNumber = '" & Current_System_Info.SerialNumber & "'")
         If Not String.IsNullOrEmpty(Access.Exception) Then
 
-            MsgBox(Access.Exception)
+            MsgBox(Access.Exception) 'debug
         Else
-            All_CUPINVO = Access.Data_Table
+            My_Systems_data = Access.Data_Table
         End If
         REM **********************************************
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         REM setup site list 
-        Access.ExecQuery("Select * FROM Primary_site_Profile")
+        Access.ExecQuery("Select * FROM Primary_site_Profile order by Site")
         If Not String.IsNullOrEmpty(Access.Exception) Then
 
             MsgBox(Access.Exception)
@@ -79,6 +120,12 @@
                 DateSet = Record("setdata")
             Next
         End If
+
+        RB_SFN.Checked = Stop_for_Numbering
+
+
+
+
         REM **********************************************
 
         REM setup Collection list 
@@ -102,14 +149,13 @@
             ComboBox1.Items.Add(Collection("Collection_ID"))
         Next
 
-        RadioButton1.PerformClick() 'debug <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        RadioButton1.PerformClick()
         ListBox1.Items.Add(Current_System_Info.SerialNumber)
         ListBox1.Items.Add(Current_System_Info.DNSHostName)
         ListBox1.Items.Add(Current_System_Info.Domian)
         ListBox1.Items.Add(Current_System_Info.Manufacturer)
         ListBox1.Items.Add(Current_System_Info.Model)
         REM  ListBox1.Items.Add(Current_System_Info.MACAddress.Length - 1) DEBUG <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
         For i = 0 To Current_System_Info.MACAddress.Length - 1
             Try
                 ListBox1.Items.Add(Current_System_Info.MACAddress(i))
@@ -117,17 +163,26 @@
 
             End Try
 
-        
-
         Next
-
-
-
-
-
-
-
         REM **********************************************
+
+        My_collection_Selection = CurrentSet
+        REM  ListBox1.Items.Add(My_collection_Selection)'debug <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+        If Stop_for_Numbering <> True Then
+            Timer1.Enabled = True
+
+
+        Else
+            Timer1.Enabled = False
+        End If
+
+
+
+
+
 
 
 
@@ -216,6 +271,11 @@
         Next
     End Sub
 
+    Private Sub CBSite_Selection_GotFocus(sender As Object, e As EventArgs) Handles CBSite_Selection.GotFocus
+        Timer1.Stop()
+        Timer1.Enabled = False
+    End Sub
+
     Private Sub CBSite_Selection_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CBSite_Selection.SelectedIndexChanged
 
     End Sub
@@ -274,5 +334,28 @@
 
         My_collection_Selection = ComboBox1.SelectedItem
         ListBox1.Items.Add(My_collection_Selection) 'debug <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        AddSystem(My_collection_Selection)
+        Timer1.Dispose()
+        Application.Exit()
+
+
+
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If ProgressBar1.Value > 0 Then
+            ProgressBar1.Value = ProgressBar1.Value - 1
+        Else
+            Timer1.Stop()
+
+
+
+            REM  btnStart_Click(sender, New EventArgs())
+            Button1_Click(sender, New EventArgs())
+            
+        End If
     End Sub
 End Class
