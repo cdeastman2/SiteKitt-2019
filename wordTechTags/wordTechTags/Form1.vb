@@ -1,12 +1,11 @@
-﻿
-Imports System.Net
+﻿Imports System.Net
 
 Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
 
-        Print_CartTags("Test-", "Cart", 20)
+        Print_CartTags("SCAN-", "Cart-", 28, 28)
 
 
 

@@ -57,7 +57,8 @@
     Private Sub CClient_Freefall_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         REM Setup ***************************************************
         ProgressBar1.Value = ProgressBar1.Maximum
-        ProgressBar1.BackColor = Color.BlueViolet
+        ProgressBar1.BackColor = Color.Cyan
+
 
 
         REM curren set data set by Cserver 
@@ -379,6 +380,10 @@
         Next
         ListBox1.Items.Add(TheCurrentSet)
 
+
+    End Sub
+
+    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
 
     End Sub
 End Class

@@ -1,16 +1,16 @@
 ﻿'==========================================================
-' LANG 					: VBScript
-' NAME 					: Print_Service_Tage3.vb
+' LANG 					: VBS.net 
+' NAME 					: TechTages
 ' AUTHOR				: Clifford Dinel Eastman ii	
-' Mail					: CDEASTM4FUSD@gmail.com
+' Mail					: CDEASTM4FUSD(at)gmail.com
 ' VERSION 				: alpha
-' DATE 					: 18/18/2018
-' Description			: 
+' DATE 					: 11/25/2018
+' Description			: print out cart,system and pickup tages
 '						: 
 ' COMMENTS 				: 
 
 
-' CONTRIBUTORS			:
+' CONTRIBUTORS			:Paul , Solty 
 
 ' THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 ' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -29,19 +29,98 @@
 Imports Microsoft.Office.Interop
 Imports System.Net.Dns
 
-Module TechTags
-    Dim objWord, objDoc, objSelection ' Word objects"
 
-    Public Sub Print_CartTags(SitePrefix, txtItem, intNnumber) ' Vertion 1.0 Aplha
-        Dim objWord, objDoc, objSelection ' Word objects"
+Module TechTags
+    Dim verbos As Boolean = True
+    Dim objWord, objDoc, objSelection ' Word objects"
+    Dim MySite As String ' this is for the file system and "Site profiles folder 
+
+    REM Cart tags and labels 
+    Public Sub Print_CartTags(SitePrefix, txtItem, intfirstlabel, intlastLabel) ' Vertion 1.0 Aplha
+        REM  Dim objWord, objDoc, objSelection ' Word objects"
+
+        Dim txtCart_labble
+        REM   Dim intNnumber As Integer 'old delete later 
+        Dim intCurrent_Hardware_Item_number As Integer
+
+        Dim Documnets_Name As String = SitePrefix & txtItem
+
+
+        objWord = CreateObject("Word.Application")
+        objWord.Caption = "Information Technology Cart Tag"
+
+
+        If verbos = True Then
+            objWord.Visible = True '<<<<<<<<< Debug point <<<<<<<<< 
+        End If
+
+        objDoc = objWord.Documents.Add()
+        objSelection = objWord.Selection
+
+
+
+        intCurrent_Hardware_Item_number = intfirstlabel
+
+        Do While intCurrent_Hardware_Item_number <= intlastlabel
+
+            'this routin makes all numbers two digits 
+            If intCurrent_Hardware_Item_number <= 9 Then
+                txtCart_labble = SitePrefix & txtItem & "0" & intCurrent_Hardware_Item_number
+            Else
+                txtCart_labble = SitePrefix & txtItem & intCurrent_Hardware_Item_number
+            End If
+            '***********************************************
+
+            objSelection.ParagraphFormat.Alignment = 1
+            objSelection.Font.Name = "IDAHC39M Code 39 Barcode"
+            objSelection.Font.Bold = False
+            objSelection.Font.Size = "14"
+            objSelection.TypeText("*" & txtCart_labble & "*") 'need leading and trailing "*" for code 39 
+
+            objSelection.Font.Name = "Arial"
+            objSelection.TypeText("     ")
+            objSelection.Font.Name = "IDAHC39M Code 39 Barcode"
+            objSelection.TypeText("*" & txtCart_labble & "*") 'need leading and trailing "*" for code 39
+
+            objSelection.TypeParagraph()
+            objSelection.TypeParagraph()
+            intCurrent_Hardware_Item_number = intCurrent_Hardware_Item_number + 1
+
+        Loop
+
+
+
+        If verbos = False Then
+            'objDoc.PrintOut()
+        End If
+
+        objDoc.SaveAs(Documnets_Name & ".doc")
+
+        If verbos = False Then
+            'objWord.Quit
+        End If
+
+
+
+
+
+    End Sub
+
+    Public Sub Print_Computer_Lables(SitePrefix, txtItem, intfirstlabel, intlastLabel) ' Vertion 1.0 Aplha
+        REM Dim objWord, objDoc, objSelection ' Word objects"
 
         Dim txtCart_labble
         Dim intCurrent_Hardware_Item_number As Integer
         Dim Documnets_Name = SitePrefix & txtItem
 
         objWord = CreateObject("Word.Application")
-        objWord.Caption = "Information Technology Cart Tag"
-        objWord.Visible = True '<<<<<<<<< Debug point <<<<<<<<< 
+        objWord.Caption = "Information Technology Computer"
+        If verbos = True Then
+            objWord.Visible = True '<<<<<<<<< Debug point <<<<<<<<< 
+        End If
+
+
+
         objDoc = objWord.Documents.Add()
         objSelection = objWord.Selection
 
@@ -80,8 +159,9 @@ Module TechTags
         'objWord.Quit
 
     End Sub
+    REM ***************************************************************************************
 
-
+    REM Servise tage **********************************************************************
     Public Sub Print_ServiceTag(txtTech, txtIncident, txtSite, txtLocation, txtInvoTrackingNumber, txtNotes) ' Vertion 1.0 Aplha
 
         ' Word objects"
@@ -197,7 +277,6 @@ Module TechTags
 
     End Sub
 
-
     Function Get_My_name() ' Vertion 1.0 Aplha
         Dim objSysInfo
         Dim strUser
@@ -221,8 +300,6 @@ Module TechTags
 
 
     End Function
-
-
-
+    REM ***************************************************************************************
 
 End Module
