@@ -254,20 +254,6 @@ Function Wright_BULK_Data(Data2wright,File2write2)
 End Function
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 '==========================================================
 'System Functions,Subroutines and Dependencies
 '==========================================================

@@ -8,3 +8,15 @@ C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\D
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.exe
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.xml
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.pdb
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe.config
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.exe
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.pdb
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\bin\Debug\CServer3.xml
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.vbprojAssemblyReference.cache
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.Form1.resources
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.Resources.resources
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.vbproj.GenerateResource.cache
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.vbproj.CoreCompileInputs.cache
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.exe
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.xml
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CServer3\CServer3\obj\Debug\CServer3.pdb

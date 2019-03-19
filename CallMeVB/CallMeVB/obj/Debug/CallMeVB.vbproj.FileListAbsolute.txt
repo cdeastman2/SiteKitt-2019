@@ -31,3 +31,14 @@ C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\D
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Form1.resources
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Resources.resources
 C:\Users\It.cliff.eastman\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbproj.GenerateResource.Cache
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe.config
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.exe
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.xml
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.pdb
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.exe
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.pdb
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\bin\Debug\CallMeVB.xml
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbprojResolveAssemblyReference.cache
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Form1.resources
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.Resources.resources
+C:\Users\cdeastm\Documents\GitHub\SiteKitt-2019\CallMeVB\CallMeVB\obj\Debug\CallMeVB.vbproj.GenerateResource.Cache

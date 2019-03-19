@@ -143,13 +143,17 @@
         REM DISPLAYING DATA AND INFO
 
         ComboBox1.SelectedText = CurrentSet
-        ComboBox1.Items.Add(CurrentSet)
+        'ComboBox1.Items.Add(CurrentSet)
 
         For Each Collection As DataRow In Collection_Selection.Rows
             ComboBox1.Items.Add(Collection("Collection_ID"))
         Next
 
         RadioButton1.PerformClick()
+
+
+
+
         ListBox1.Items.Add(Current_System_Info.SerialNumber)
         ListBox1.Items.Add(Current_System_Info.DNSHostName)
         ListBox1.Items.Add(Current_System_Info.Domian)
